@@ -16,7 +16,6 @@ const Test = () => {
       <Map />
       <Form />
       <Footer_comp/>
-
     </Layout>
 
   )

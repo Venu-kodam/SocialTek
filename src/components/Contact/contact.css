@@ -25,6 +25,9 @@
   min-height: 600px;
 }
 
+.c-form{
+  flex-wrap: wrap !important;
+}
 .banner-right {
   margin-top: 160px !important;
   /* text-align: right !important; */
@@ -48,7 +51,7 @@
 }
 
 .cont {
-  margin: 40px !important;
+  margin: 40px 0 !important;
   display: flex !important;
   justify-content: space-evenly;
   margin-top: 50px;
@@ -134,3 +137,20 @@ form {
   }
 
 }
+
+/* @media (max-width:667px) {
+  .form-contact h1,.address h1{
+    font-size: 20px !important;
+  }
+  .contact-box{
+    width: 300px !important;
+  }
+  .contact-box form input,.contact-box form textarea{
+    width: 200px !important;
+  }
+  .c-form{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+}  */

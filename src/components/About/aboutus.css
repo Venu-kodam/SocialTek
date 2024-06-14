@@ -261,130 +261,6 @@ a {
 
 }
 
-.nav-item {
-  position: relative !important;
-}
-
-.nav-item::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #C741FC;
-  transition: 0.3s ease-in-out;
-}
-
-.nav-item.active::after,
-.nav-item:hover::after {
-  width: 100%;
-}
-
-/* footer css */
-.footer {
-  background-image: url("https://preview.colorlib.com/theme/eclipse/img/footer-bg.png.webp");
-  height: fit-content;
-  background-size: cover;
-  padding: 400px 20px 100px 20px;
-  color: white;
-}
-
-.footer .section {
-  margin-bottom: 20px;
-  line-height: 25px;
-}
-
-.footer .newsletter {
-  line-height: 35px;
-}
-
-.footer div h2 {
-  font-size: 20px;
-}
-
-.footer div a {
-  color: #828bb2;
-}
-
-.footer div a:hover {
-  color: white;
-}
-
-.footer div input {
-  height: 40px;
-  border: none;
-  width: 70%;
-  background: #363a4b;
-  color: white;
-  padding-left: 20px;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.footer div button {
-  color: white;
-  padding: 10px 20px !important;
-  margin-left: -60px !important;
-  border: none;
-  background-color: #00DBDE;
-  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-  cursor: pointer;
-}
-
-.footer-last {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.footer-last .icons .icon {
-  font-size: 30px;
-  color: #363a4b;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.footer-last .icons .icon:hover {
-  background-color: #00DBDE;
-  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-}
-
-@media (max-width: 768px) {
-  .footer {
-    text-align: center;
-  }
-
-  .footer .section {
-    margin: 0 auto 20px;
-  }
-
-  .footer div input {
-    width: 100%;
-  }
-}
-
-@media (max-width:977px) {
-  .footer .section {
-    display: none;
-  }
-}
-
-@media (max-width: 543px) {
-  .footer {
-    background-image: none;
-    background-color: #28273d;
-    height: fit-content;
-    padding: 50px 50px 50px 50px;
-  }
-
-  .footer-last .icons {
-    display: flex;
-    justify-content: center;
-  }
-  .question{
-    margin: 20px 60px !important;
-  }
-}
 
 @media (min-width: 458px) {
   .card-group {
@@ -419,4 +295,9 @@ a {
     padding: auto;
   }
 
+}
+@media(min-width:757px ){
+  .imga{
+    display: none;
+  }
 }
