@@ -7,7 +7,7 @@ const Plans = () => {
                 <h1 className='fs-5 heading1' style={{ color: '#C741FC' }}>THE BOT YOUR CUSTOMERS LOVE TO ENGAGE !!</h1>
                 <h1 className='heading2' style={{ fontSize: '50px', fontWeight: 'bolder' }}>No Hidden Charges! Choose Your <br /> Plan.</h1>
             </div>
-            <div className="my-5 py-5">
+            <div className="my-5 plan-cards py-5 px-4">
                 <div className="row justify-content-center gap-2">
                     <div className="card-plan p-4 text-white col-12 col-md col-lg" style={{ background: '#782FEF', maxWidth: '24rem',borderRadius:'20px' }}>
                         <div className="card-body text-center">

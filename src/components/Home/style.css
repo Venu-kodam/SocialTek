@@ -399,6 +399,12 @@
   .footer div input {
     width: 100%;
   }
+  .elementor-section{
+    margin: 5rem 1rem !important;
+  }
+  /* .plans{
+
+  } */
 
 }
 
