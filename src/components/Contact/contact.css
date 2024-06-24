@@ -27,6 +27,10 @@
 
 .c-form{
   flex-wrap: wrap !important;
+  padding: 0 30px !important;
+}
+.map{
+  padding:30px !important ;
 }
 .banner-right {
   margin-top: 160px !important;

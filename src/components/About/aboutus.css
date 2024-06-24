@@ -228,6 +228,9 @@ a {
     background: rgb(141, 53, 224) !important;
     padding: 60px 0px;
   }
+  .imga{
+    width: 400px !important;
+  }
 }
 
 @media(max-width:1210px) {
@@ -258,6 +261,9 @@ a {
   .t-content {
     margin-top: -10px !important;
   }
+  .imga{
+    width: 300px !important;
+  }
 
 }
 
@@ -286,9 +292,9 @@ a {
 @media (max-width: 760px) {
   .cardc {
     margin: 30px 30px !important;
-    /* padding: 0 auto !important; */
     width: auto !important;
   }
+
 
   .premove {
     display: block;
@@ -298,6 +304,6 @@ a {
 }
 @media(min-width:757px ){
   .imga{
-    display: none;
+    /* display: none; */
   }
 }

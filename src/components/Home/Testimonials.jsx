@@ -1,4 +1,7 @@
 import React from 'react'
+import about_team1 from '../../assets/about-team1.webp' 
+import about_team2 from '../../assets/about-team2.webp' 
+import about_team3 from '../../assets/about-team3.webp' 
 import './style.css'
 const Testimonials = () => {
     return (
@@ -13,19 +16,19 @@ const Testimonials = () => {
                     </div>
                     <div className="carousel-inner text-white text-center">
                         <div className="carousel-item active my-5" data-bs-interval="1000">
-                        <img src="./src/assets/about-team2.webp" className="img-about" alt="..." width={120} height={120}/>
+                        <img src={about_team2} className="img-about"  width={120} height={120}/>
                             <h5 className="name fw-bolder">David janson</h5>
                             <div className="position">Senior Product Manager,Empik</div>
                             <div className="comments my-3">"SocialTek delivers impressive quality results at cost-effective prices and consistently meets deadlines. They are also transperant and proactive in their communication."</div>
                         </div>
                         <div className="carousel-item my-5" data-bs-interval="1000">
-                        <img src="./src/assets/about-team1.webp" className="img-about" alt="..." width={120} height={120}/>
+                        <img src={about_team1} className="img-about"  width={120} height={120}/>
                             <h5 className="name fw-bolder">Srinivasan</h5>
                             <div className="position">CEO,Mashcup Technologies</div>
                             <div className="comments my-3">"They really dug deep to understand our industry and Customrneeds. They are truly engaged and always up for the New Challenge"</div>
                         </div>
                         <div className="carousel-item my-5" data-bs-interval="1000">
-                        <img src="./src/assets/about-team3.webp" className="img-about" alt="..." width={120} height={120}/>
+                        <img src={about_team3} className="img-about"  width={120} height={120}/>
                             <h5 className="name fw-bolder">Theodore davis</h5>
                             <div className="position">CEO,SmashTech Pvt ltd</div>
                             <div className="comments my-3">SocialTek helped us in Doubling our Sales of our IT Products with Innovative AI Technologies, We are very happy to associate with SocialTek</div>
